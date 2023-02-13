@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/country_text_view_bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Country" />
+
+        <TextView
+            android:id="@+id/ioc_text_view_bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="IOC" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/competed_text_view_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Competed" />
+
+    <TextView
+        android:id="@+id/gold_text_view_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#827717"
+        android:textSize="18sp"
+        tools:text="Gold" />
+
+    <TextView
+        android:id="@+id/silver_text_view_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#636363"
+        android:textSize="18sp"
+        tools:text="Silver" />
+
+    <TextView
+        android:id="@+id/bronze_text_view_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#6E391D"
+        android:textSize="18sp"
+        tools:text="Bronze" />
+
+</LinearLayout>

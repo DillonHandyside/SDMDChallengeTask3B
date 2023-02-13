@@ -1,2 +1,2 @@
-# SDMDChallengeTask3B
-Pass task 3B: The medallists extension
+# SDMDPassTask3A
+Pass task 3A: The medallists
